@@ -9,10 +9,13 @@
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.39.0",
-    "@types/node": "^20.8.10",
+    "@types/node": "^20.9.0",
     "dotenv": "^16.3.1"
   },
   "dependencies": {
-    "mongoose": "^8.0.0"
+    "mongoose": "^8.0.0",
+    "pg": "^8.11.3",
+    "sequelize": "^6.35.0",
+    "typescript": "^5.2.2"
   }
 }

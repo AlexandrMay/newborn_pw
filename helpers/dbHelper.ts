@@ -31,9 +31,7 @@ export class DbHelper {
 
         });
         const categoryModel = mongoose.model('categories', categorySchema);
-        const result = await categoryModel.find({
-            user: '65227e57146a28199b53060f'
-        });
+        const result = await categoryModel.findById('651bb638146a28199b52f0f1');
         await mongoose.disconnect();
         return result;
     }
